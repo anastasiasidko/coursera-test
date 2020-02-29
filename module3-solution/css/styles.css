@@ -1,1 +1,65 @@
 
+body {
+	font-family: Helvetica;
+}
+
+/* Navbar */
+
+.navbar-light {
+    background-color: #e5d098;
+    border: 1px solid black;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: #1c2029;
+}
+
+.navbar-light .navbar-toggler:hover {
+	border-color: white;
+}
+
+
+.navbar-brand {
+	font-family: Helvetica;
+	font-size: 1.5em;
+}
+
+/* Collapsable menu */
+
+#navbarSupportedContent {
+	margin-right: -16px;
+	margin-left: -16px;
+}
+
+#navbarSupportedContent a {
+	font-family: Helvetica;
+	color: black;
+}
+
+#navbarSupportedContent a:hover {
+	background-color: white;
+}
+
+/* Page content */
+
+#menu-heading {
+	height: 100px;
+	padding-top: 20px;
+	font-size: 2em;
+}
+
+#main-content {
+	height: 1000px;
+	padding: 20px;
+	background-color: #e5d098;
+}
+
+
+.row {
+	margin: 10px; 
+}
+
+h1 {
+	font-size: 1.2em;
+	text-align: center;
+}
